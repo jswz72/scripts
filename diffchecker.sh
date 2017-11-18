@@ -1,6 +1,5 @@
 #!/bin/sh
-
-#Check if any changed files
+#Scan uncommited changes and warn if any log/debug statements left in
 
 diff=`git diff`
 array=()
